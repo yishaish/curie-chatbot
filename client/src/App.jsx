@@ -26,7 +26,7 @@ function App() {
     // console.log({question})
     setLoading(true);
     axios
-      .post("https://chatbot-server-ohtt.onrender.com/chat", {
+      .post("https://curie-chatbot-server.onrender.com/chat", {
         question,
       })
       .then((response) => {
@@ -48,7 +48,7 @@ function App() {
     <main class="main-container">
 
       <div class="container">
-          <h2>ChatBot (davinci model)</h2>
+          <h2>ChatBot (curie model)</h2>
         <div>
 
           <div class="chats">
